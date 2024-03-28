@@ -13,11 +13,11 @@
     <meta
     name="theme-color" content="{{ themeColor | default("#0b0c0c", true) }}">
     {#- Hardcoded value of $govuk-black #}
-    {% block headIcons %}
-      <link rel="icon" sizes="48x48" href="{{ assetPath | default("/assets", true) }}/images/favicon.ico">
-      <link
-      rel="icon" sizes="any" href="{{ assetPath | default("/assets", true) }}/images/favicon.svg" type="image/svg+xml"> {# <link rel="mask-icon" href="{{ assetPath | default("/assets", true) }}/images/govuk-icon-mask.svg" color="{{ themeColor | default("#0b0c0c") }}"> {#- Hardcoded value of $govuk-black #}
-      <link rel="apple-touch-icon" href="{{ assetPath | default("/assets", true) }}/images/govuk-icon-180.png"> #} <link rel="manifest" href="{{ assetPath | default("/assets", true) }}/manifest.json">
+    {% block headIcons %}{# <link rel="icon" sizes="48x48" href="{{ assetPath | default("/assets", true) }}/images/favicon.ico"> #}
+      {# <link rel="icon" sizes="any" href="{{ assetPath | default("/assets", true) }}/images/favicon.svg" type="image/svg+xml">  #}
+      {# <link rel="mask-icon" href="{{ assetPath | default("/assets", true) }}/images/govuk-icon-mask.svg" color="{{ themeColor | default("#0b0c0c") }}"> {#- Hardcoded value of $govuk-black #}
+      {# <link rel="apple-touch-icon" href="{{ assetPath | default("/assets", true) }}/images/govuk-icon-180.png"> #}
+      {# <link rel="manifest" href="{{ assetPath | default("/assets", true) }}/manifest.json"> #}
     {% endblock %}
     {% block head %}{% endblock %}
     {#- OpenGraph images needs to be absolute, so we need either a URL for the image or for assetUrl to be set #}
