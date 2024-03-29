@@ -11,7 +11,7 @@
 /// @type List
 /// @access public
 
-$govuk-font-family: "GDS Transport", arial, sans-serif !default;
+$govuk-font-family: sans-serif !default;
 
 /// Font families to use for print media
 ///
@@ -25,13 +25,13 @@ $govuk-font-family-print: sans-serif !default;
 
 /// Include the default @font-face declarations
 ///
-/// Defaults to true if "GDS Transport" appears in the $govuk-font-family
+/// Defaults to true if "Rijksoverheid" appears in the $govuk-font-family
 /// setting.
 ///
 /// @type Boolean
 /// @access public
 
-$govuk-include-default-font-face: if(index($govuk-font-family, "GDS Transport"), true, false) !default;
+$govuk-include-default-font-face: if(index($govuk-font-family, "Rijksoverheid"), true, false) !default;
 
 // =========================================================
 // Font weights

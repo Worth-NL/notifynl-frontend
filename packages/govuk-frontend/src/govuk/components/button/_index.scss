@@ -31,7 +31,7 @@ $govuk-inverse-button-background-colour: govuk-colour("white") !default;
 $govuk-inverse-button-text-colour: $govuk-brand-colour !default;
 
 @include govuk-exports("govuk/component/button") {
-  $govuk-button-colour: $govuk-button-background-colour;
+  $govuk-button-colour: govuk-colour("blue");
   $govuk-button-text-colour: $govuk-button-text-colour;
   $govuk-button-hover-colour: govuk-shade($govuk-button-colour, 20%);
   $govuk-button-shadow-colour: govuk-shade($govuk-button-colour, 60%);
