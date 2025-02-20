@@ -33,18 +33,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alphagov/govuk-frontend.git"
+    "url": "https://github.com/worth-nl/govuk-frontend.git"
   },
-  "bugs": {
-    "url": "https://github.com/alphagov/govuk-frontend/issues"
-  },
-  "homepage": "https://frontend.design-system.service.gov.uk/",
-  "keywords": [
-    "govuk",
-    "frontend",
-    "design system",
-    "template"
-  ],
   "license": "MIT",
   "scripts": {
     "dev": "gulp dev --color",
