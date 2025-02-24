@@ -16,18 +16,18 @@
     @at-root {
       /*! Copyright (c) 2011 by Margaret Calvert & Henrik Kubel. All rights reserved. The font has been customised for exclusive use on gov.uk. This cut is not commercially available. */ /* stylelint-disable-line scss/comment-no-loud  */
       @font-face {
-        font-family: "Rijksoverheid";
+        font-family: Rijksoverheid;
         font-style: normal;
         font-weight: normal;
-        src: govuk-font-url("rijksoverheidserif-regular.ttf") format("truetype");
+        src: govuk-font-url("rijksoverheidsanstext-regular.ttf") format("truetype");
         font-display: fallback;
       }
 
       @font-face {
-        font-family: "Rijksoverheid";
+        font-family: Rijksoverheid;
         font-style: normal;
         font-weight: bold;
-        src: govuk-font-url("rijksoverheidserif-bold.ttf") format("truetype");
+        src: govuk-font-url("rijksoverheidsansheading-bold.ttf") format("truetype");
         font-display: fallback;
       }
     }
